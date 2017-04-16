@@ -1,0 +1,139 @@
+<html>
+    
+<head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+    <link rel="stylesheet" type="text/css" href="Project2.css">;
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px;
+    margin-top: 3px;
+    float: left;
+    width: 24.99999%;
+    
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+    .text{
+        margin: auto;
+        max-width: 720px;
+        width: 60%;
+        border-top: 1px solid black;
+        
+        
+    }
+    
+    .p{
+        font-family: 'EB Garamond', serif;
+        margin: auto;
+    }
+    
+    .h4{
+        font-family: 'EB Garamond', serif;
+    }
+    
+</style>
+</head>
+<body>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="A.jpg">
+      <img src="A.jpg" alt="Trolltunga Norway" width="600" height="400">
+    </a>
+    <div class="desc">Operative Drawing</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="B.JPG">
+      <img src="B.JPG" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Sectional Model</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="C.JPG">
+      <img src="C.JPG" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Pine Wood Test Model</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="D.JPG">
+      <img src="D.JPG" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Final Model</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+    
+    <br>
+    
+<div class="text">
+    <div style="padding:6px;">
+        <h4>S17 - Operative Drawing - "Force"</h4>
+        <p>This project started with analyzing the motion of a kitchen tool:
+            <br><br>
+        To Chop
+            <br><br>
+        To Press
+            <br><br>
+        To Force
+            <br><br>
+        <a href="index.html"> To Go Home</a>
+        </p>
+</div>
+</div>
+
+</body>
+</html>
