@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+.center1 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.center2 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.center3 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.center4 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.center5 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 1px solid grey;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+.center1:hover{
+    background-image: url(CubeProjects.PNG);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+.center2:hover{
+    background-image: url(A2.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+.center3:hover{
+    background-image: url(test3.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+.center4:hover{
+    background-image: url(A.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+.center5:hover{
+    background-image: url(gil.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.row{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+}

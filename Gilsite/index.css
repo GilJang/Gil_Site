@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+
+.body{
+    margin: auto;
+    width: 50%;
+    max-width: 720px;}
+
+.div {
+  background: lightcyan; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, lightcyan, lightblue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, lightcyan, lightblue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, lightcyan, lightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, lightcyan, lightblue); /* Standard syntax */
+} /* this didnt seem to work*/
+
+.col-1:hover{
+    background: linear-gradient(to bottom right, lightcyan, lightblue);
+}
+
+.grid-container{
+font-family: 'EB Garamond', serif;
+
+    
+    }
+.grid-container{
+        width: 100%; 
+        padding: 50px;
+        max-width: 720px;
+        align-content: center;
+        margin: auto;
+        border: 4px solid white;
+        
+    }
+
+.grid-container:hover {
+        border: 4px solid #777;
+}    
+
+    .row:before, 
+    .row:after {
+        content:"";
+          display: table ;
+        clear:both;
+    }
+
+    [class*='col-'] {
+        float: left; 
+        min-height: 1px; 
+        width: 16.66%; 
+        padding: 50px; 
+        background-color: white;
+        outline: inherit;
+        outline-color: black;
+        align-content: center;
+    }
+
+    .col-1{ width: 16%; }
+    .col-2{ width: 33.33%; }
+    .col-3{ width: 50%;    }
+    .col-4{ width: 66.66%; }
+    .col-5{ width: 83.33%; }
+    .col-6{ width: 100%;   }
+
+
+
+.outline *{
+        outline: 0px solid black; 
+    }
+
+    
+    [class*='col-'] > p {
+        background-color: whitesmoke; 
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding: auto;
+        margin: auto;
+        text-align: center; 
+        color: white;
+        border: 1px solid gray;
+        
+}
+  
+
+        
+
+@media all and (max-width:auto){
+        .col-1{ width: 33.33%;    }
+     
+    }
